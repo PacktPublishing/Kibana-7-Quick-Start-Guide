@@ -1,23 +1,3 @@
--- Adminer 4.2.5 MySQL dump
-
-SET NAMES utf8;
-SET time_zone = '+00:00';
-SET foreign_key_checks = 0;
-SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
-
-SET NAMES utf8mb4;
-
-INSERT INTO `file` (`id`, `name`) VALUES
-(1,	'Team2018-07-23 07:13:50.jpeg'),
-(3,	'Team2018-07-23 07:11:01.jpeg'),
-(4,	'Team2018-07-23 07:13:49.jpeg'),
-(5,	'Team2018-07-23 07:13:50.jpeg');
-
-INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
-(1,	'2018_07_21_022147_team',	1),
-(2,	'2018_07_21_022209_file',	1),
-(3,	'2018_07_21_022215_player',	1);
-
 DROP TABLE IF EXISTS `player`;
 CREATE TABLE `player` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -44,5 +24,3 @@ CREATE TABLE `team` (
 INSERT INTO `team` (`id`, `name`, `description`) VALUES
 (1,	'India',	'India national cricket team'),
 (2,	'Pakistan',	'Pakistan national cricket team');
-
--- 2018-12-25 11:57:12
