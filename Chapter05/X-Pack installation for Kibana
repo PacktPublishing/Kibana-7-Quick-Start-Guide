@@ -1,0 +1,19 @@
+X-Pack Installation on Kibana
+
+We need to install X-Pack for Elastic Stack 6.2 or older versions as from version 6.3 onwards X-Pack is coming as a default distribution with Elastic Stack. So in Elastic Stack 6.3 and onwards, we can get all free features as enabled by default while other features can be enabled by installing X-Pack.
+
+We need to do following for installing X-Pack with Elastic Stack if our Elastic Stack version is 6.2 or older:
+
+Stop Kibana service, move to Kibana installation directory and execute the following command:
+
+bin/kibana-plugin install x-pack
+
+Above expression will install the X-Pack plugin on Kibana.
+
+After installing X-Pack start Kibana service we need to add elasticsearch.username and elasticsearch.password under kibana.yml file.
+
+elasticsearch.username: "elastic_username"
+elasticsearch.password: "elastic_password"
+
+
+After updating the kibana.yml file start Kibana.

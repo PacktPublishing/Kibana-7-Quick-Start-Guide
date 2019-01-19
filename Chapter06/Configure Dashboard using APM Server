@@ -1,0 +1,24 @@
+We can configure the dashboard loading through apm-server.yml config file using the following setting:
+
+	setup.dashboards.enabled: true
+
+Also, we can run the following setup command to load the dashboard from the system:
+
+deb and rpm:
+
+	apm-server setup --dashboards
+
+mac:
+
+	./apm-server setup --dashboards
+
+docker:
+
+	docker run docker.elastic.co/apm/apm-server:6.5.4 setup --dashboards
+
+win: From the PowerShell prompt, change to the directory where you installed APM Server, and run:
+
+	PS > .\apm-server.exe setup --dashboards
+
+
+This way we can load Dashboards for APM data visualization and analysis.		

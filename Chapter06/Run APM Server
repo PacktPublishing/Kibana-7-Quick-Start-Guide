@@ -1,0 +1,20 @@
+Run APM Server
+
+Once APM server is installed, we need to run following command for running it:
+
+	./apm-server -e
+
+After executing above command APM Server will start and will connect to the Elasticsearch on localhost port 9200 and will expose the port 8200 to listen to the APM agent through API. But this is the default setting which we can change by executing the following command:
+
+	./apm-server -e -output.elasticsearch.hosts=ElasticsearchAddress:9200 -E apm-server.host=localhost:8200
+
+We can also change this configuration by modifying the apm-server.yml configuration file. We can modify the APM Server port or Elasticsearch host and port by modifying the following section of the file:
+
+	apm-server:
+	  host: localhost:8200
+
+	output:
+	  elasticsearch:
+	    hosts: ElasticsearchAddress:9200
+
+So once the apm-server.yml file is modified we need to restart the APM service.

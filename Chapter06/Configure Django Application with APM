@@ -1,0 +1,33 @@
+To configure Dgango for running APM agent for Python, we need to install elatic-apm module:
+
+	pip install elastic-apm
+
+Then we need to configure the agent and to configure APM with this Django application, we need to do following changes in settings.py file:
+
+	# Add the agent to the installed apps
+	INSTALLED_APPS = (
+	  'elasticapm.contrib.django',
+	  # ...
+	)	
+
+	
+	ELASTIC_APM = {
+	  # Set required service name. Allowed characters:
+	  # a-z, A-Z, 0-9, -, _, and space
+	  'SERVICE_NAME': 'django application',
+
+	  # Use if APM Server requires a token
+	  'SECRET_TOKEN': 'mysecrettoken',
+
+	  # Set custom APM Server URL (default: http://localhost:8200)
+	  'SERVER_URL': 'http://localhost:8200',
+	}
+
+	
+	# To send performance metrics, add our tracing middleware:
+	MIDDLEWARE = (
+	  'elasticapm.contrib.django.middleware.TracingMiddleware',
+	  #...
+	)
+
+Using above changes in settings.py file, APM agent can be configured with Python Django application

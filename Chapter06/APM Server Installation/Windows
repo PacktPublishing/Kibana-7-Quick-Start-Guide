@@ -1,0 +1,13 @@
+Install APM Server on Windows
+
+For installing the APM Server we need to do the following:
+
+1) Download the APM Server from the download page of Elastic (https://www.elastic.co/downloads/apm).
+2) Extract the downloaded zip content under C:\Program Files.
+3) Rename the long directory name with the version name appended to it, to a clean name like "apm-server"
+    With Administration rights, open the PowerShell and run following command:
+
+	cd 'C:\Program Files\apm-server'
+	.\install-service-apm-server.ps1
+
+This will install APM Server on Windows machine.

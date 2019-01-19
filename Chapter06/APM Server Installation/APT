@@ -1,0 +1,25 @@
+install APM Server using APT repository
+
+We need to do the following to install APM Server through APT repository(Please change 6.x to the available version):
+
+1) First download the Public Signing key and install that:
+
+	wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+
+2) We need to install the apt-transport-https package on Debian before further proceedings:
+
+	sudo apt-get install apt-transport-https
+
+3) After that we need to save the repository definition under /etc/apt/source.list.d/elastic-6.x.list
+
+	echo "deb https://artifacts.elastic.co/packages/6.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-6.x.list
+
+4) Then execute apt-get update command to update the repository and then install APM Server by executing the following command:
+
+	sudo apt-get update && sudo apt-get install apm-server
+
+5) To autostart APM Server after every reboot we need to run following command:
+
+	sudo update-rc.d apm-server defaults 95 10
+
+This way we can install the APM Server on APT based devices using APT repository. 

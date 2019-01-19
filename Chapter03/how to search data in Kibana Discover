@@ -1,0 +1,8 @@
+On Kibana Discover search bar, if you want to search any IP then you can type following query in search box:
+
+client_ip : 203.122.7.xx
+
+
+If you want to add more conditions with 'and' or 'or' then you can write the following query:
+
+client_ip : 203.122.7.98 and http_version : 1.1 and tags : _dateparsefailure   

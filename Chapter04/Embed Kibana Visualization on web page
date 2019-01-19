@@ -1,0 +1,19 @@
+Embed Kibana Visualization or Dashboard on a web page
+
+After creating the visualization or Dashboard in Kibana we can embed it on a web page. For embedding the visualization we need to click on the share button on top-right corner and select "Saved object" option, then we can click on "Short URL" to check this option for creating short URLs. After doing all these changes we can click on "Copy IFrame code" button which will copy below iframe embed code for the visualization.
+
+<iframe src="http://localhost:5601/goto/b2f6a08b8fd523d0310887de09ac1f12?embed=true" height="600" width="800"></iframe>
+
+We can copy the above code and can use it on any web page to display the visualization on the custom web page. So now as we have the iframe code let us create a web page as kibana.html by writing a very simple code like below:
+
+<html>
+<head>
+<title>This is a demo visualization page.</title>
+</head>
+<body>
+    <h2>Kibana Visualization display</h2>
+    <h3>This is my custom web page</h3>
+    <iframe src="http://localhost:5601/goto/b2f6a08b8fd523d0310887de09ac1f12?embed=true" height="600" width="800"></iframe>
+</body>
+
+In the above code we are creating a simple web page with a title and heading and after heading, we are including the iframe code to embed the Kibana visualization on this web page. After saving the HTML file open it into a browser to display the web page

@@ -1,0 +1,29 @@
+install APM Server using YUM repository
+
+We need to do following for adding YUM repository of APM Server(Please change 6.x to the available version):
+
+1) In first step we need to download the public signing key:
+
+	sudo rpm --import https://packages.elastic.co/GPG-KEY-elasticsearch
+
+2) Then we need to create a .repo extension under /etc/yum.repos.d/ directory and then add the following expression:
+
+	[elastic-6.x]
+	name=Elastic repository for 6.x packages
+	baseurl=https://artifacts.elastic.co/packages/6.x/yum
+	gpgcheck=1
+	gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch
+	enabled=1
+	autorefresh=1
+	type=rpm-md
+
+3) Now we can install the APM Server by execution following command:
+
+	sudo yum install apm-server
+
+4) To configure it to auto start after every reboot, we need to run following command:
+
+	sudo chkconfig --add apm-server
+
+This way we can install APM Server using YUM repository.
+

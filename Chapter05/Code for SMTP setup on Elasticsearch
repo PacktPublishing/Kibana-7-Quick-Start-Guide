@@ -1,0 +1,15 @@
+If you want to send emails through Alerting system of Elastic Stack using Gmail then configure Gmail SMTP account by adding following configuration in elasticseach.yml file.
+
+xpack.notification.email.account:
+    gmail_account:
+        profile: gmail
+        smtp:
+            auth: true
+            starttls.enable: true
+            host: smtp.gmail.com
+            port: 587
+            user: b******@gmail.com
+            password: b*****@****
+
+
+

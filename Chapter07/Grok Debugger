@@ -1,0 +1,19 @@
+Grok Debugger
+
+if we have the following sample data:
+
+	127.0.0.1 GET /index.php 11374 0.019
+
+Then we can create a pattern like following to process it:
+
+	%{IP:client} %{WORD:method} %{URIPATHPARAM:request} %{NUMBER:bytes} %{NUMBER:duration}
+
+After simulating the above Grok Pattern we can convert above sample unstructured data into a structured data:
+
+	{
+	  "duration": "0.019",
+	  "request": "/index.php",
+	  "method": "GET",
+	  "bytes": "11374",
+	  "client": "127.0.0.1"
+	}
