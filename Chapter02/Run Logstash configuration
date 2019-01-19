@@ -1,0 +1,11 @@
+Execute Logstash configuration file to fetch crimes CSV data, using following command on Ubuntu:
+
+  /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/crimes.conf 
+
+Execute Logstash configuration file to fetch MySQL data, using following command on Ubuntu:
+
+  /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/teams.conf
+  
+Cron entry to execute the Logstash configuration file to fetch MySQL data on every machine reboot. This will ensure that we need not to execute it manually after system reboot.
+
+  @reboot /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/teams.conf
