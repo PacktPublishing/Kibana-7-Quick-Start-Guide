@@ -50,9 +50,9 @@ With the following software and hardware list you can run all code files present
 | 1 to 7   | Elasticsearch                       | Windows, Mac OS X, and Linux (Any) |
 
 ### Related products <Other books you may enjoy>
-* Linux: Powerful Server Administration [[Packt]](https://www.packtpub.com/networking-and-servers/linux-powerful-server-administration?utm_source=github&utm_medium=repository&utm_campaign=9781788293778) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Mastering Elastic Stack [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/mastering-elastic-stack?utm_source=github&utm_medium=repository&utm_campaign=9781786460011) [[Amazon]](https://www.amazon.com/dp/1788293770)
 
-* Linux Device Drivers Development [[Packt]](https://www.packtpub.com/networking-and-servers/linux-device-drivers-development?utm_source=github&utm_medium=repository&utm_campaign=9781785280009) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Learning Elastic Stack 6.0 [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/learning-elastic-stack-60?utm_source=github&utm_medium=repository&utm_campaign=9781787281868) [[Amazon]](https://www.amazon.com/dp/1788293770)
 
 ## Get to Know the Author
 **Author Name**
