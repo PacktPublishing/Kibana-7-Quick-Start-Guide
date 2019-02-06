@@ -50,9 +50,9 @@ With the following software and hardware list you can run all code files present
 | 1 to 7   | Elasticsearch                       | Windows, Mac OS X, and Linux (Any) |
 
 ### Related products <Other books you may enjoy>
-* Mastering Elastic Stack [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/mastering-elastic-stack?utm_source=github&utm_medium=repository&utm_campaign=9781786460011) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Mastering Elastic Stack [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/mastering-elastic-stack?utm_source=github&utm_medium=repository&utm_campaign=9781786460011) [[Amazon]](https://www.amazon.com/dp/1787281868)
 
-* Learning Elastic Stack 6.0 [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/learning-elastic-stack-60?utm_source=github&utm_medium=repository&utm_campaign=9781787281868) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Learning Elastic Stack 6.0 [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/learning-elastic-stack-60?utm_source=github&utm_medium=repository&utm_campaign=9781787281868) [[Amazon]](https://www.amazon.com/dp/1788831039)
 
 ## Get to Know the Author
 **Anurag Srivastava**
