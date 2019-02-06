@@ -9,7 +9,7 @@ This is the code repository for [Kibana 7 Quick Start Guide](https://www.packtpu
 ## What is this book about?
 The Elastic Stack is growing rapidly and, day by day, additional tools are being added to make it more effective. This book endeavors to explain all the important aspects of Kibana, which is essential for utilizing its full potential.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features:
 * Explore How Logstash is configured to fetch CSV data
 * Understand how to create index patterns in Kibana
 * Learn how to apply filters on data
