@@ -27,9 +27,14 @@ All of the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
 ```
-if (test expression)
+input 
 {
-  Statement upon condition is true
+    file 
+    {
+        path => "/var/log/apache.log"
+        type => "apache-access"  
+        start_position => "beginning"
+    }  
 }
 ```
 
@@ -44,14 +49,6 @@ With the following software and hardware list you can run all code files present
 | -------- | ------------------------------------| -----------------------------------|
 | 1 to 7   | Elasticsearch                       | Windows, Mac OS X, and Linux (Any) |
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](Graphics Bundle Link).
-
-## Code in Action
-
-Click on the following link to see the Code in Action:
-
-[Placeholder link](www.youtube.com/URL)
-
 ### Related products <Other books you may enjoy>
 * Linux: Powerful Server Administration [[Packt]](https://www.packtpub.com/networking-and-servers/linux-powerful-server-administration?utm_source=github&utm_medium=repository&utm_campaign=9781788293778) [[Amazon]](https://www.amazon.com/dp/1788293770)
 
@@ -59,11 +56,7 @@ Click on the following link to see the Code in Action:
 
 ## Get to Know the Author(s)
 **Author Name**
-Bio
-
-**Author Name**
-Bio
-
+Anurag Srivastava is a senior technical lead and has more than 12 years of experience. He is proficient in designing architecture for scalable and highly available applications. He has handled development teams and several clients from all around the globe in the last 10 years of his professional career. He is experienced with using the Elastic stack (Elasticsearch, Logstash, and Kibana) to create dashboards using system metrics data, log data, application data, and relational databases.
 
 ## Other books by the authors
 * [Mastering Linux Network Administration](https://www.packtpub.com/networking-and-servers/mastering-linux-network-administration?utm_source=github&utm_medium=repository&utm_campaign=9781784399597)
