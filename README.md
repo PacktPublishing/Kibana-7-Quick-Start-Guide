@@ -54,13 +54,12 @@ With the following software and hardware list you can run all code files present
 
 * Linux Device Drivers Development [[Packt]](https://www.packtpub.com/networking-and-servers/linux-device-drivers-development?utm_source=github&utm_medium=repository&utm_campaign=9781785280009) [[Amazon]](https://www.amazon.com/dp/1788293770)
 
-## Get to Know the Author(s)
+## Get to Know the Author
 **Author Name**
 Anurag Srivastava is a senior technical lead and has more than 12 years of experience. He is proficient in designing architecture for scalable and highly available applications. He has handled development teams and several clients from all around the globe in the last 10 years of his professional career. He is experienced with using the Elastic stack (Elasticsearch, Logstash, and Kibana) to create dashboards using system metrics data, log data, application data, and relational databases.
 
-## Other books by the authors
-* [Mastering Linux Network Administration](https://www.packtpub.com/networking-and-servers/mastering-linux-network-administration?utm_source=github&utm_medium=repository&utm_campaign=9781784399597)
-* [Linux Mint Essentials](https://www.packtpub.com/networking-and-servers/linux-mint-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781782168157)
+## Other books by the author
+* [Mastering Kibana 6.x](https://www.packtpub.com/big-data-and-business-intelligence/mastering-kibana-6x?utm_source=github&utm_medium=repository&utm_campaign=9781788831031)
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
